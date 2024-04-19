@@ -2,7 +2,6 @@
 name = "llm-own-laptop"
 version = "0.1.0"
 description = ""
-authors = ["Mark Needham <m.h.needham@gmail.com>"]
 readme = "README.md"
 packages = [{include = "llm_own_laptop"}]
 
