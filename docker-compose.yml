@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+
+  # This service is used as a main entry point for dockerized python packages
+  ercot:
+    container_name: llm
+    image: llm:1.0
+    build: .
+    volumes:
+      # Mount code into container - this means you can edit code in your laptop IDE and changes register in the container
+      - .:/code/
+    command: sh -c "tail -f /dev/null"
