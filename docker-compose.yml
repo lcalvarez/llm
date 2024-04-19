@@ -3,7 +3,7 @@ version: "3.9"
 services:
 
   # This service is used as a main entry point for dockerized python packages
-  ercot:
+  llm:
     container_name: llm
     image: llm:1.0
     build: .
